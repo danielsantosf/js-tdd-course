@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Arrow Functions</title>
+	</head>
+  <body>
+  </body>
+  <script>
+    const chicago = ['Boystown', 'Lakeview', "Downtown"];
+    const love = chicago.map(function(name) {
+      return `I love ${name}!`;
+    });
+    console.log(love);
+
+    const loveArrow = chicago.map((name) => {
+      return `I love ${name}!`;
+    });
+
+    console.log(loveArrow);
+
+    const loveArrowOneLine = chicago.map((name)=> `I love ${name}!`)
+
+    console.log(loveArrowOneLine);
+
+    const loveChain = chicago
+          .filter(name => name === 'Boystown')
+          .map(name => `I love ${name}`);
+
+    console.log(loveChain);
+  </script>
+</html>

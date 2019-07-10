@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Array.find and Array.finIndex</title>
+  </head>
+
+  <body>
+
+  </body>
+
+  <script>
+
+    var data = {
+      name : 'Daniel',
+      surname : 'Santos',
+      age : 25,
+      social: {
+        twitter: '@devfighter',
+        facebook: '/devfighter'
+      }
+    }
+
+    //before
+    /*const name = data.name;
+    ...
+    */
+    //Now with ES6
+
+    const {name, surname} = data;
+
+    console.log(name);
+    console.log(surname);
+
+    // const {twitter, facebook} = data.social
+    const {twitter, facebook: fb} = data.social;
+
+    console.log(fb);
+
+    //if you don't have it defined yet, you can set a default
+    const {city = 'BH'} = data;
+
+    console.log(city);
+
+    //in arrays
+
+    const arr = ['Lisbeth', 'Salander', 26, 'Sweden'];
+
+    const [namea, surnamea, agea, country] = arr;
+
+    console.log(namea);
+    console.log(surnamea);
+    console.log(agea);
+    console.log(country);
+
+  </script>
+</html>

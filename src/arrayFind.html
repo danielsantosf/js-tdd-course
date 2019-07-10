@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Array.find and Array.finIndex</title>
+  </head>
+
+  <body>
+
+  </body>
+
+  <script>
+    const data = [
+    {
+      name: 'Lisbeth',
+      age: 26,
+      city: 'Winden'
+    },
+    {
+      name: 'Stieg',
+      age: 52,
+      city: 'Belgrad'
+    }
+    ];
+
+    // const sampleArray = [4, -5, 0, -1];
+
+    // const underZero = sampleArray.find(x => x < 0);
+
+    // console.log(underZero);
+
+    // const underZeroIndex = sampleArray.findIndex(x => x < 0);
+
+    // console.log(underZeroIndex);
+
+    const stieg = data.find(person => person.name === 'Stieg');
+    const stiegIndex = data.findIndex(person => person.name === 'Stieg');
+    console.log(stieg);
+    console.log(stiegIndex);
+
+  </script>
+</html>

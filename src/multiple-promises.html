@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Array.find and Array.finIndex</title>
+  </head>
+
+  <body>
+
+  </body>
+
+  <script>
+
+    const currency =  new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve({ currency: 'euro', value: 3.50 });
+      }, 2000);
+    });
+
+    const countries = new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve(['Ireland', 'England', 'Scotland']);
+      }, 600);
+    });
+
+    // Promise
+    // //all uses all promises stated below. It also waits for the longest to finish before resolving.
+    //   .all([currency, countries])
+    //   .then(responses => {
+    //     console.log(responses);
+    //   })
+
+      Promise
+    //race uses all promises stated below. As soon as the first promise resolves, all the rest is ignored. Useful when you make various requests but only the first one to resolve matters.
+      .race([currency, countries])
+      .then(responses => {
+        console.log(responses);
+      })
+
+  </script>
+</html>

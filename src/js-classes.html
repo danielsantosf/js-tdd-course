@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Array.find and Array.finIndex</title>
+  </head>
+
+  <body>
+
+  </body>
+
+  <script>
+
+    class Animal {
+      constructor(kind, sound) {
+        this.kind = kind;
+        this.sound = sound;
+      }
+
+
+      hello() {
+        console.log(`${this.sound} I'm a ${this.kind}`);
+      }
+
+      static info() {
+        console.log('This is to instantiate animal objects.');
+      }
+    }
+
+    const dog = new Animal('dog', 'woof');
+    const cat = new Animal('cat', 'miaou');
+  </script>
+</html>

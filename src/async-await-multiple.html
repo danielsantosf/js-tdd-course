@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Async/await</title>
+  </head>
+
+  <body>
+
+  </body>
+
+  <script>
+
+    async function getUsers(users){
+      //better code
+      const promises = users.map(user => fetch(`https://api.github.com/users/${user}`).then(r => r.json()));
+
+      const ppl = await Promise.all(promises);
+      console.log(ppl.map(p => p.name));
+
+      // const will = fetch('https://api.github.com/users/willianjusten').then(r => r.json());
+      // const gui = fetch('https://api.github.com/users/willianjusten').then(r => r.json());
+
+      // const promises =  await Promise.all([will, gui]);
+
+      // console.log(ppl);
+    }
+
+    getUsers(['willianjusten','guilouro']);
+  </script>
+</html>

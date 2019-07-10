@@ -1,0 +1,25 @@
+
+> js-tdd-course@1.0.0 build /home/yousee/Documentos/js-tdd-course
+> webpack --colors
+
+Hash: [1m436df3a9cf06384a2267[39m[22m
+Version: webpack [1m2.7.0[39m[22m
+Time: [1m7185[39m[22mms
+          [1mAsset[39m[22m    [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[33m./src/build2.js[39m[22m  [1m[33m459 kB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  filename
+  [12] [1m./~/ramda/es/keys.js[39m[22m 2 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [13] [1m./~/ramda/es/slice.js[39m[22m 1.19 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [14] [1m./~/ramda/es/reduce.js[39m[22m 2.03 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [15] [1m./~/process/browser.js[39m[22m 5.42 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [19] [1m./~/ramda/es/max.js[39m[22m 445 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [20] [1m./~/ramda/es/path.js[39m[22m 757 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [25] [1m./~/ramda/es/invoker.js[39m[22m 1.62 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [26] [1m./~/ramda/es/nth.js[39m[22m 966 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [27] [1m./~/ramda/es/pluck.js[39m[22m 1.21 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [28] [1m./~/ramda/es/reverse.js[39m[22m 895 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [48] [1m./~/react/index.js[39m[22m 190 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [130] [1m./~/ramda/es/index.js[39m[22m 12.9 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [131] [1m./~/react-dom/index.js[39m[22m 1.36 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [132] [1m./src/app.js[39m[22m 767 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [171] [1m./~/ramda/es/evolve.js[39m[22m 1.56 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+    + 332 hidden modules

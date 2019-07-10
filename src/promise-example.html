@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Array.find and Array.finIndex</title>
+  </head>
+
+  <body>
+
+  </body>
+
+  <script>
+
+    var posts = fetch('https://willianjusten.com.br/search.json')
+
+  //pending
+  //resolved
+  //rejected
+
+    posts
+    //   .then(data => data.json())
+    //   .then(data => data.map(post => {
+    //     console.log(post.title);
+    //   }))
+    // console.log(posts);
+     .then(data => data.json())
+     .then(data => {
+        throw new Error('aff, deu erro');
+     })
+     .catch(err => console.error(err));
+
+  </script>
+</html>
