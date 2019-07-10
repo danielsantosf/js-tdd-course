@@ -6,7 +6,7 @@
   "scripts": {
     "clear": "rimraf lib",
     "lint": "eslint src/*.js",
-    "prepush": "npm run lint && npm run test:coverage",
+    "prepush": "npm run test:coverage",
     "test": "mocha tests/**/*.spec.js --require babel-register",
     "test:tdd": "mocha tests/**/*.spec.js --require babel-register --watch",
     "test:coverage": "nyc npm test",
