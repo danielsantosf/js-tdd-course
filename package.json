@@ -4,7 +4,6 @@
   "description": "Nossa biblioteca do curso de JS com TDD na prática.",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
     "clear": "rimraf lib",
     "lint": "eslint src/*.js",
     "prepush": "npm run test:coverage",
@@ -26,12 +25,6 @@
     "exclude": [
       "tests/**"
     ]
-=======
-    "lint": "./node_modules/.bin/eslint src/*.js",
-    "prepush": "npm run lint",
-    "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register",
-    "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register --watch"
->>>>>>> 36dc6e5773e01a74268108f942ee9bda631a1ed6
   },
   "repository": {
     "type": "git",
@@ -49,7 +42,6 @@
   },
   "homepage": "https://github.com/willianjusten/js-tdd-course#readme",
   "devDependencies": {
-<<<<<<< HEAD
     "@babel/core": "^7.5.0",
     "@babel/preset-env": "^7.5.2",
     "babel-cli": "^6.24.1",
@@ -60,10 +52,6 @@
     "babel-preset-es2015-native-modules": "^6.9.4",
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.26.0",
-=======
-    "babel-preset-env": "^1.3.2",
-    "babel-register": "^6.24.0",
->>>>>>> 36dc6e5773e01a74268108f942ee9bda631a1ed6
     "chai": "^3.5.0",
     "editorconfig": "^0.15.3",
     "eslint": "^4.19.1",
